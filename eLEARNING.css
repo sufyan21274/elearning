@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    }
+ .header{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    background-color:white;
+    border-top: 1px solid gainsboro;
+    font-size: large;
+
+    border-bottom: 1px solid gainsboro;
+        
+    
+ 
+    
+ }
+ nav{
+    flex: 1;
+    text-align:right;
+    margin-right: 5%;
+    font-size: smaller;
+    
+ }
+ nav ul {
+    display: inline-block;
+    list-style-type: none;
+    
+ 
+ 
+ }
+ a:hover{
+   color:#06BBCC;
+ }
+ nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+ 
+ }
+ a{
+    text-decoration: none;
+    color:rgb(63, 60, 60);
+    font-family:'Courier New', Courier, monospace;
+    font-size: larger;
+
+ }
+ #header-text{
+color:rgb(29, 77, 94);
+font-weight: bolder;
+font-variant: small-caps;
+ }
+ .course-div{
+  display: flex;
+  flex-wrap: wrap-reverse;
+ }
+ .courses{
+  margin-left: 8%;
+margin-top: 5%;
+flex: 1,1,1,100;
+}
+
+#form{
+  margin-left: 35%;
+   width: 30%;
+
+}
+
+input{
+  height: 25px;
+  width: 300px;
+ padding: 5%;
+  margin-left: 13%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+h2{
+  text-align:center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  }
+  @media ( max-width:768px){
+   box{display: none;}
+   
+  }
+  body{
+   background-color:whitesmoke;
+   
+  }
+  .textdiv{
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin-top: -30%;
+margin-left: 10%;
+    
+color:rgb(26, 23, 23);
+ }
+  #h1{
+   font-size: 50px;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: #06BBCC;
+
+
+
+  }
+  #Courses{
+   margin-top: 20%;
+  }
+
+  #aboutdiv{
+   display: flex;
+  }
+  #aboutdiv1{
+   flex-wrap: wrap;
+   margin-left: 10%;
+  }
+  #aboutdiv2{
+   word-wrap: break-word;
+   margin-left: 5%;
+   margin-top: 2%;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+   margin-right: 10%;
+  }
+  
+  .footer .box-container{
+   border: 0px solid;
+   text-align: left;
+   justify-content: center;
+ display:flex;
+ grid-template-columns: repeat(auto-fit, minmax(28rem,1fr));
+ gap: 10.5rem;
+ background-color: white;
+ border-radius: 15px 0 15px 0;}
+ #hr{
+   width: 80px;
+   background-color:whitesmoke;
+   margin-bottom:  0%;
+   margin-left: 25%;
+   width: 50%;
+   text-align: center;
+ 
+ }
+  
